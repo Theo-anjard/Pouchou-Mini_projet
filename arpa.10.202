@@ -1,0 +1,23 @@
+$TTL    1h
+@       IN      SOA     THEO.ANJARD.local root.THEO.ANJARD.local. (
+                              1         ; Serial
+                         604800         ; Refresh(1h)
+                          86400         ; Retry(1h)
+                        2419200         ; Expire(41j)
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      serv.THEO.ANJARD.local.
+@       IN      MX      10 serv.THEO.ANJARD.local.
+serv    IN      A       10.202.17.10
+mail       IN      CNAME      serv
+
+
+
+
+
+
+
+
+
+
+
