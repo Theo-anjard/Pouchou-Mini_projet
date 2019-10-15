@@ -1,0 +1,24 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA    ns.theo-anjard.local. root.theo-anjard.local. (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      ns.theo-anjard.local.
+ns      IN      A       10.205.9.1 
+
+
+
+
+
+
+
+
+
+
+

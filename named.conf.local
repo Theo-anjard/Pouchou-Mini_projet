@@ -6,14 +6,14 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
-zone "THEO.ANJARD.local" {
+zone "theo-anjard.local" {
 type master;
-file "/etc/bind/THEO.ANJARD.local";
+file "/etc/bind/theo-anjard.local";
 };
 
 
-zone "202.10.in-addr.arpa" {
+zone "9.205.10.in-addr.arpa" {
 type master;
-file "/etc/bind/arpa.10.202";
+file "/etc/bind/arpa.10.205.9";
 };
 
