@@ -16,4 +16,4 @@ zone "9.205.10.in-addr.arpa" {
 type master;
 file "/etc/bind/arpa.10.205.9";
 };
-
+#eyeyye
